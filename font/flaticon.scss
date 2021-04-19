@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ac35445118e8476ece6e02364213b869") format("truetype"),
+url("./flaticon.woff?ac35445118e8476ece6e02364213b869") format("woff"),
+url("./flaticon.woff2?ac35445118e8476ece6e02364213b869") format("woff2"),
+url("./flaticon.eot?ac35445118e8476ece6e02364213b869#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ac35445118e8476ece6e02364213b869#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "calendar": "\f101",
+    "comment": "\f102",
+    "dollars-money-bag-with-a-clock": "\f103",
+    "evaluate": "\f104",
+    "life-insurance": "\f105",
+    "magnifier": "\f106",
+    "mail-send": "\f107",
+    "marketing-strategy": "\f108",
+    "medal-of-award": "\f109",
+    "phone-call": "\f10a",
+    "placeholder": "\f10b",
+    "right-quote-sign": "\f10c",
+    "send": "\f10d",
+    "star-1": "\f10e",
+    "star": "\f10f",
+    "strategy-in-a-labyrinth": "\f110",
+    "telephone": "\f111",
+    "trend": "\f112",
+    "user": "\f113",
+);
+
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-dollars-money-bag-with-a-clock:before {
+    content: map-get($flaticon-map, "dollars-money-bag-with-a-clock");
+}
+.flaticon-evaluate:before {
+    content: map-get($flaticon-map, "evaluate");
+}
+.flaticon-life-insurance:before {
+    content: map-get($flaticon-map, "life-insurance");
+}
+.flaticon-magnifier:before {
+    content: map-get($flaticon-map, "magnifier");
+}
+.flaticon-mail-send:before {
+    content: map-get($flaticon-map, "mail-send");
+}
+.flaticon-marketing-strategy:before {
+    content: map-get($flaticon-map, "marketing-strategy");
+}
+.flaticon-medal-of-award:before {
+    content: map-get($flaticon-map, "medal-of-award");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-right-quote-sign:before {
+    content: map-get($flaticon-map, "right-quote-sign");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-strategy-in-a-labyrinth:before {
+    content: map-get($flaticon-map, "strategy-in-a-labyrinth");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon-map, "trend");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
